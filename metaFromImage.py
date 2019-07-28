@@ -6,7 +6,7 @@ import re
 import ICIfunctions as ICI
 
 # name of text file to write pixel-level contents
-oFile = "data/processed/metaFromImage.txt"
+oFile = "data/processed/metaFromImage/metaFromImage.txt"
 # x Pixel (origin = 0 at "top left" of image)
 xPix = ctypes.c_int(333)
 # y pixel (origin = 0 at "top left" of image)
